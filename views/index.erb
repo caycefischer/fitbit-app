@@ -1,0 +1,26 @@
+<table>
+	<thead>
+		<tr>
+			<th>Key</th>
+			<th>Value</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- first line calls the KEY  -->
+			<td>Display Name</td>
+			<td><%= @raw["displayName"] %></td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td><%= @raw["city"] %></td>
+		</tr>
+		<tr>
+			<td>Weight</td>
+			<td><%= @raw["weight"] %></td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+<pre><%= @pretty %></pre>
